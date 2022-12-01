@@ -1,7 +1,6 @@
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { FaAngellist } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const HeaderSocials = () => {
