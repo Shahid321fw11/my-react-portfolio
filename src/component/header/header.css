@@ -47,6 +47,9 @@ header {
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+.img {
+  position: absolute;
+}
 
 /* ============== Scroll Down ================ */
 .scroll__down {
