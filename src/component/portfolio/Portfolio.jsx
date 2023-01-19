@@ -3,14 +3,13 @@ import React from "react";
 import meesho from "../../assets/meesho.png";
 import maxFashion from "../../assets/MaxFashion.png";
 import GoFundMe from "../../assets/GoFundMe.png";
-import ShopperStop from "../../assets/ShopperStop.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
-      title: "Meesho Clone",
+      title: "Meesho Clone ⭐",
       img: meesho,
       description:
         "A complete single handed, MERN stack, e-commerce website that contains a wide range of apparel, cosmetics, household items, and many more categories.",
@@ -20,7 +19,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Max Fashion Clone",
+      title: "Max Fashion Clone ⭐",
       img: maxFashion,
       description:
         "With the help of HTML, CSS, JavaScript and Tailwind CSS I build the clone of Max fashion in 5 days. A shopping website that offers clothes for kids, men, and women from different popular brands.",
@@ -37,16 +36,6 @@ const Portfolio = () => {
       technologies: "HTML | CSS | JavaScript | Git",
       link: "https://gofundmeclone.netlify.app/",
       github: "https://github.com/Anshuman-K/ConstructWeek-Unit-2",
-    },
-    {
-      id: 4,
-      title: "ShopperStop Clone",
-      img: ShopperStop,
-      description:
-        "Clone of ShopperStop with the help of HTML, CSS, JavaScript Nodejs, MongoDB. A fully functional and responsive website where a user can use to see product page and add into the cart.",
-      technologies: "HTML | CSS | JavaScript | NodeJS | MongoDB",
-      link: "https://shopper-stop-clone.herokuapp.com/",
-      github: "https://github.com/Smrutiranjan-Patra/shopper-stop-clone-public",
     },
   ];
   return (
