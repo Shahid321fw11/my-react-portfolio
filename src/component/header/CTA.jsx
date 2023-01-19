@@ -7,6 +7,7 @@ const CTA = () => {
         href="https://drive.google.com/file/d/10kaTrfiH-SgS1mPFnvDj8nXe-h2MS5kJ/view?usp=sharing"
         target="_blank"
         className="btn"
+        rel="noreferrer"
       >
         Resume
       </a>
