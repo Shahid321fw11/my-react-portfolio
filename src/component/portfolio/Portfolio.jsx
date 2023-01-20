@@ -29,6 +29,16 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "MERN Weather App ⭐",
+      img: "",
+      description:
+        "With the help of React, Node, Express, MongoDB, Bootstrap CSS I build this Mern Weather App. A User can access main weather page only after Successful Authentication.",
+      technologies: "React | CSS | Bootstrap | Node | Express | MongoDB",
+      link: "https://mern-react-weather-app.netlify.app/",
+      github: "https://github.com/Shahid321fw11/React_Weather_App_Mern_Hosted",
+    },
+    {
+      id: 4,
       title: "GoFundMe Clone",
       img: GoFundMe,
       description:
