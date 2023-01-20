@@ -3,6 +3,7 @@ import React from "react";
 import meesho from "../../assets/meesho.png";
 import maxFashion from "../../assets/MaxFashion.png";
 import GoFundMe from "../../assets/GoFundMe.png";
+import Weather from "../../assets/Weather.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -30,10 +31,10 @@ const Portfolio = () => {
     {
       id: 3,
       title: "MERN Weather App ⭐",
-      img: "",
+      img: Weather,
       description:
         "With the help of React, Node, Express, MongoDB, Bootstrap CSS I build this Mern Weather App. A User can access main weather page only after Successful Authentication.",
-      technologies: "React | CSS | Bootstrap | Node | Express | MongoDB",
+      technologies: "React | Node | Express | MongoDB | JWT | Bootstrap  ",
       link: "https://mern-react-weather-app.netlify.app/",
       github: "https://github.com/Shahid321fw11/React_Weather_App_Mern_Hosted",
     },
