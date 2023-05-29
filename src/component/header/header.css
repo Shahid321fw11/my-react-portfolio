@@ -45,10 +45,21 @@ header {
   margin-top: 4rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 1.5rem 1.5rem 1.5rem;
+  /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
 .img {
   position: absolute;
+  background: url('./../../assets/headerPhoto02.png');
+  background-size: cover;
+    height: 100%;
+    width: 100%;
+
+}
+.img:hover {
+  background: url('./../../assets/headerPhoto01.png');
+  background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* ============== Scroll Down ================ */
