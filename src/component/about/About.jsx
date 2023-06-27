@@ -38,9 +38,11 @@ const About = () => {
               Stack developement from Masai School. Looking for a challenging
               opportunity in a fast-paced organization.
             </p>
+            <div>
             <a href="#contact" className="btn btn-primary">
               Let's Talk
             </a>
+            </div>
           </div>
         </div>
       </section>
