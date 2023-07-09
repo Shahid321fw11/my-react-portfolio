@@ -30,6 +30,10 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsPatchCheck className="experience__details-icon" />
+              <h4>jQuery</h4>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheck className="experience__details-icon" />
               <h4>Redux</h4>
             </article>
             <article className="experience__details">

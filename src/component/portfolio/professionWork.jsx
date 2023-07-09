@@ -7,16 +7,16 @@ import Weather from "../../assets/Weather.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
-  const soloProjects = [
+  const professionalProjects = [
     {
       id: 1,
-      title: "Meesho Clone ⭐",
+      title: "4Climate⭐",
       img: meesho,
       description:
-        "A complete single handed, MERN stack, e-commerce website that contains a wide range of apparel, cosmetics, household items, and many more categories.",
-      technologies: "React | Redux | NodeJS | ExpressJS | Mongodb ",
-      link: "https://meesho-by-shahid.netlify.app/",
-      github: "https://github.com/Shahid321fw11/Meesho_Clone",
+        "Completed phase one, solved bugs. User components trigger hydroponic plant actions, real-time results on dashboard. Websockets enable efficient state management. Promoting sustainability and empowering users.",
+      technologies: "React | Websockets",
+      link: "https://test.4climate.in/",
+      github: "",
     },
     {
       id: 2,
@@ -52,11 +52,12 @@ const Portfolio = () => {
   return (
     <>
       <section id="portfolio">
-        <h5>My Recent Work</h5>
-        <h2>Portfolio</h2>
+        {/* <h5>My Recent Work</h5> */}
+        {/* <h2>Portfolio</h2> */}
+        <h2>Some Professional Projects</h2>
 
         <div className="container portfolio__container">
-          {soloProjects.map((pro) => (
+          {professionalProjects.map((pro) => (
             <article className="portfolio__item" key={pro.id}>
               <div className="portfolio__item-image">
                 <img src={pro.img} alt={pro.title} />
@@ -67,22 +68,35 @@ const Portfolio = () => {
                 <p>{pro.technologies}</p>
               </div>
               <div className="portfolio__item-cta">
-                <a
+                {pro.github && (
+                  <a
+                    href={pro.github}
+                    target="_blank"
+                    className="btn"
+                    rel="noreferrer"
+                  >
+                    GitHub
+                  </a>
+                )}
+
+                {/* <a
                   href={pro.github}
                   target="_blank"
                   className="btn"
                   rel="noreferrer"
                 >
                   GitHub
-                </a>
-                <a
-                  href={pro.link}
-                  target="_blank"
-                  className="btn btn-primary"
-                  rel="noreferrer"
-                >
-                  Visit Website
-                </a>
+                </a> */}
+                {pro.link && (
+                  <a
+                    href={pro.link}
+                    target="_blank"
+                    className="btn btn-primary"
+                    rel="noreferrer"
+                  >
+                    Visit Website
+                  </a>
+                )}
               </div>
             </article>
           ))}
