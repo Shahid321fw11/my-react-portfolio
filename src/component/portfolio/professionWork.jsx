@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "4Climate⭐",
-      img: meesho,
+      img: '',
       description:
         "Completed phase one, solved bugs. User components trigger hydroponic plant actions, real-time results on dashboard. Websockets enable efficient state management. Promoting sustainability and empowering users.",
       technologies: "React | Websockets",
@@ -20,13 +20,13 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      title: "Max Fashion Clone ⭐",
-      img: maxFashion,
+      title: "NemaAI⭐",
+      img: '',
       description:
-        "With the help of HTML, CSS, JavaScript and Tailwind CSS I build the clone of Max fashion in 5 days. A shopping website that offers clothes for kids, men, and women from different popular brands.",
-      technologies: "HTML | CSS | JavaScript | TailwindCSS | Git",
-      link: "https://max-fashion-clone.netlify.app/",
-      github: "https://github.com/Shahid321fw11/maxFashion_Clone_Project",
+        "NemaAI is a project that involved updating the existing code and implementing significant changes. Leveraging HTML, CSS, JavaScript, Bootstrap, and OwlCarousel, I have successfully accomplished the required modifications and enhancements for our client.",
+      technologies: "HTML | CSS | JavaScript | Bootstrap | OwlCarousel",
+      link: "https://nemaai.com/index.html",
+      github: "",
     },
     {
       id: 3,
