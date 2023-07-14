@@ -1,9 +1,9 @@
 import React from "react";
 // import img1 from "../../assets/portfolio1.jpg";
-import meesho from "../../assets/meesho.png";
-import maxFashion from "../../assets/MaxFashion.png";
-import GoFundMe from "../../assets/GoFundMe.png";
-import Weather from "../../assets/Weather.png";
+// import meesho from "../../assets/meesho.png";
+import NemaAI from "../../assets/nemaAI.png";
+import Climate from "../../assets/4Climate.png";
+import tourprabhandhak from "../../assets/tourPrabhandhak.png";
 import "./portfolio.css";
 
 const Portfolio = () => {
@@ -11,42 +11,35 @@ const Portfolio = () => {
     {
       id: 1,
       title: "4Climate⭐",
-      img: '',
+      img: Climate,
       description:
         "Completed phase one, solved bugs. User components trigger hydroponic plant actions, real-time results on dashboard. Websockets enable efficient state management. Promoting sustainability and empowering users.",
-      technologies: "React | Websockets",
+      technologies: "React",
+      // technologies: "",
       link: "https://test.4climate.in/",
       github: "",
     },
     {
       id: 2,
       title: "NemaAI⭐",
-      img: '',
+      img: NemaAI,
       description:
         "NemaAI is a project that involved updating the existing code and implementing significant changes. Leveraging HTML, CSS, JavaScript, Bootstrap, and OwlCarousel, I have successfully accomplished the required modifications and enhancements for our client.",
       technologies: "HTML | CSS | JavaScript | Bootstrap | OwlCarousel",
+      // technologies: "",
       link: "https://nemaai.com/index.html",
       github: "",
     },
     {
       id: 3,
-      title: "MERN Weather App ⭐",
-      img: Weather,
+      title: "Tour Prabhandhak⭐",
+      img: tourprabhandhak,
       description:
-        "With the help of React, Node, Express, MongoDB, Bootstrap CSS I build this Mern Weather App. A User can access main weather page only after Successful Authentication.",
-      technologies: "React | Node | Express | MongoDB | JWT | Bootstrap  ",
-      link: "https://mern-react-weather-app.netlify.app/",
-      github: "https://github.com/Shahid321fw11/React_Weather_App_Mern_Hosted",
-    },
-    {
-      id: 4,
-      title: "GoFundMe Clone",
-      img: GoFundMe,
-      description:
-        "A web application that helps to fund raise for needy persons. Using HTML, CSS, and JavaScript we built a clone of Gofund ME in 5 day.",
-      technologies: "HTML | CSS | JavaScript | Git",
-      link: "https://gofundmeclone.netlify.app/",
-      github: "https://github.com/Anshuman-K/ConstructWeek-Unit-2",
+        "I successfully debugged Tour Prabhandhak, a tourism website, and created new components using HTML, CSS, and JavaScript. Improved functionality, fixed errors, and enhanced user experience.",
+      technologies: "HTML | CSS | JS",
+      // technologies: "",
+      link: "https://tourprabhandhak.com/",
+      github: "",
     },
   ];
   return (
