@@ -20,11 +20,11 @@
 .portfolio__item-image {
   border-radius: 1.5rem;
   overflow: hidden;
-  height: 30%;
+  /* height: 30%; */
 }
 
 .portfolio__item h3 {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .portfolio__item p {
@@ -35,11 +35,11 @@
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .portfolio__item-content {
-  height: 50%;
+  /* height: 50%; */
 }
 
 @media screen and (max-width: 1024px) {
