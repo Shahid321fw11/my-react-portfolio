@@ -1,6 +1,7 @@
 import React from "react";
 // import img1 from "../../assets/portfolio1.jpg";
 import meesho from "../../assets/meesho.png";
+import chitChat from "../../assets/chitchat.png";
 import maxFashion from "../../assets/MaxFashion.png";
 import GoFundMe from "../../assets/GoFundMe.png";
 import Weather from "../../assets/Weather.png";
@@ -10,6 +11,16 @@ const Portfolio = () => {
   const soloProjects = [
     {
       id: 1,
+      title: "ChitChat Webapp ⭐",
+      img: chitChat,
+      description:
+        "ChitChat, a recent MERN stack project, leverages Socket.IO for real-time communication, offering an intuitive interface and dynamic features for effortless interaction.",
+      technologies: "React | WebSocket | NodeJS | ExpressJS | Mongodb ",
+      link: "https://chitchatapp-fi5m.onrender.com/",
+      github: "https://github.com/Shahid321fw11/chatMernApp",
+    },
+    {
+      id: 2,
       title: "Meesho Clone ⭐",
       img: meesho,
       description:
@@ -19,7 +30,7 @@ const Portfolio = () => {
       github: "https://github.com/Shahid321fw11/Meesho_Clone",
     },
     {
-      id: 2,
+      id: 3,
       title: "Max Fashion Clone ⭐",
       img: maxFashion,
       description:
@@ -29,7 +40,7 @@ const Portfolio = () => {
       github: "https://github.com/Shahid321fw11/maxFashion_Clone_Project",
     },
     {
-      id: 3,
+      id: 4,
       title: "MERN Weather App ⭐",
       img: Weather,
       description:
@@ -39,7 +50,7 @@ const Portfolio = () => {
       github: "https://github.com/Shahid321fw11/React_Weather_App_Mern_Hosted",
     },
     {
-      id: 4,
+      id: 5,
       title: "GoFundMe Clone",
       img: GoFundMe,
       description:
