@@ -5,6 +5,7 @@ import About from "./component/about/About";
 import Experience from "./component/experience/Experience";
 import PortfolioPersonal from "./component/portfolio/personalWork";
 import PortfolioProfessional from "./component/portfolio/professionWork";
+import portfolioTabs from "./component/portfolio/portfolioTabs";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
 
@@ -14,8 +15,13 @@ const App = () => {
       <Header />
       <Nav />
       <About />
-      <PortfolioProfessional />
-      <PortfolioPersonal />
+      {/* <PortfolioProfessional /> */}
+      {/* <PortfolioPersonal /> */}
+      {/* <portfolioTabs /> */}
+      {/* <projects /> */}
+
+      <portfolioTabs />
+
       <Experience />
       <Contact />
       <Footer />
