@@ -47,7 +47,7 @@ const Portfolio = () => {
       <section id="portfolio">
         {/* <h5>My Recent Work</h5> */}
         {/* <h2>Portfolio</h2> */}
-        <h2>Some Professional Projects</h2>
+        {/* <h2>Some Professional Projects</h2> */}
 
         <div className="container portfolio__container">
           {professionalProjects.map((pro) => (

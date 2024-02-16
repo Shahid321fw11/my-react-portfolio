@@ -1,50 +1,46 @@
-// import * as React from "react";
-// import Box from "@mui/material/Box";
-// import Tab from "@mui/material/Tab";
-// import TabContext from "@mui/lab/TabContext";
-// import TabList from "@mui/lab/TabList";
-// import TabPanel from "@mui/lab/TabPanel";
+import React, { useState } from "react";
+import "./portfolio.css";
+import Company from "./company";
+import PortfolioProfessional from "./professionWork";
 
-// export default function LabTabs() {
-//   const [value, setValue] = React.useState("1");
+const PortfolioTabs = () => {
+  const [activeTab, setActiveTab] = useState("tab1");
 
-//   const handleChange = (event, newValue) => {
-//     setValue(newValue);
-//   };
+  const handleTabClick = (tab) => {
+    setActiveTab(tab);
+  };
 
-//   return (
-//     <Box sx={{ width: "100%", typography: "body1" }}>
-//       <TabContext value={value}>
-//         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-//           <TabList onChange={handleChange} aria-label="lab API tabs example">
-//             <Tab label="Item One" value="1" />
-//             <Tab label="Item Two" value="2" />
-//             <Tab label="Item Three" value="3" />
-//           </TabList>
-//         </Box>
-//         <TabPanel value="1">Item One</TabPanel>
-//         <TabPanel value="2">Item Two</TabPanel>
-//         <TabPanel value="3">Item Three</TabPanel>
-//       </TabContext>
-//     </Box>
-//   );
-// }
-
-// import * as React from "react";
-import Button from "@mui/material/Button";
-
-// export default function ButtonUsage() {
-//   return <Button variant="contained">Hello world</Button>;
-// }
-
-import React from "react";
-
-const portfolioTabs = () => {
   return (
-    <div>
-      <Button variant="contained">Hello world</Button>
-    </div>
+    <section>
+      <div className="container container1">
+        <div className="tabs">
+          <button
+            onClick={() => handleTabClick("tab1")}
+            className={activeTab === "tab1" ? "btn btn-primary" : "btn"}
+          >
+            Company
+          </button>
+          <button
+            onClick={() => handleTabClick("tab2")}
+            className={activeTab === "tab2" ? "btn btn-primary" : "btn"}
+          >
+            Personal
+          </button>
+          <button
+            onClick={() => handleTabClick("tab3")}
+            className={activeTab === "tab3" ? "btn btn-primary" : "btn"}
+          >
+            Freelance
+          </button>
+        </div>
+        <div className="tab-content">
+          {activeTab === "tab1" && <PortfolioProfessional />}
+          {activeTab === "tab2" && <div>Content for Tab 2</div>}
+          {activeTab === "tab3" && <div>Content for Tab 3</div>}
+        </div>
+      </div>
+    </section>
   );
 };
 
-export default portfolioTabs;
+export default PortfolioTabs;

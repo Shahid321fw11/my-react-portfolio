@@ -5,9 +5,9 @@ import About from "./component/about/About";
 import Experience from "./component/experience/Experience";
 import PortfolioPersonal from "./component/portfolio/personalWork";
 import PortfolioProfessional from "./component/portfolio/professionWork";
-import portfolioTabs from "./component/portfolio/portfolioTabs";
 import Contact from "./component/contact/Contact";
 import Footer from "./component/footer/Footer";
+import PortfolioTabs from "./component/portfolio/portfolioTabs";
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
       {/* <portfolioTabs /> */}
       {/* <projects /> */}
 
-      <portfolioTabs />
+      <PortfolioTabs />
 
       <Experience />
       <Contact />

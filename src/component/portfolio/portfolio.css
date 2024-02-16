@@ -1,7 +1,7 @@
 .portfolio__container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2.5rem;
+  /* display: grid; */
+  /* grid-template-columns: repeat(3, 1fr); */
+  /* gap: 2.5rem; */
 }
 
 .portfolio__item {
@@ -10,6 +10,8 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  gap: 1.3rem;
+  margin :1.3rem;
 }
 
 .portfolio__item:hover {
@@ -55,3 +57,48 @@
     gap: 1rem;
   }
 }
+
+.container1{
+  /* background: var(--color-bg-variant); */
+  border-radius: 1rem;
+  /* padding: 2rem; */
+
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  /* background: var(--color-bg-variant); */
+  /* border: 1px solid transparent; */
+  border-radius: 1rem 1rem 0rem 0rem;
+  /* padding: 2rem; */
+    background: var(--color-bg-variant);
+  transition: var(--transition);
+  padding: 2rem 2rem;
+  gap: 1.2rem
+}
+.tab-content{
+  border: 1px solid var(--color-primary);
+  border-top: none;
+  padding: 1rem;
+}
+.tab-content #portfolio{
+  margin: 0 !important;
+}
+
+
+.tabs .btn {
+  background-color: transparent;
+}
+.tabs .btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+.tabs .btn-primary {
+  background-color: var(--color-primary);
+}
+
+/* .tab-content {
+  margin-top: 10px;
+} */
