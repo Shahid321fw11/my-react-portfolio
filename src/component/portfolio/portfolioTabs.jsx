@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./portfolio.css";
-import Company from "./company";
-import PortfolioProfessional from "./professionWork";
+// import Company from "./company";
+import ProjectsProfessional from "./professionWork";
+import ProjectsPersonal from "./personalWork";
+import ProjectsFreelancer from "./freelanceWork";
 
 const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -34,9 +36,9 @@ const PortfolioTabs = () => {
           </button>
         </div>
         <div className="tab-content">
-          {activeTab === "tab1" && <PortfolioProfessional />}
-          {activeTab === "tab2" && <div>Content for Tab 2</div>}
-          {activeTab === "tab3" && <div>Content for Tab 3</div>}
+          {activeTab === "tab1" && <ProjectsProfessional />}
+          {activeTab === "tab2" && <ProjectsPersonal />}
+          {activeTab === "tab3" && <ProjectsFreelancer />}
         </div>
       </div>
     </section>

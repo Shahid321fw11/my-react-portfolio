@@ -1,8 +1,8 @@
-.portfolio__container {
+/* .portfolio__container { */
   /* display: grid; */
   /* grid-template-columns: repeat(3, 1fr); */
   /* gap: 2.5rem; */
-}
+/* } */
 
 .portfolio__item {
   background: var(--color-bg-variant);
@@ -11,7 +11,7 @@
   border: 1px solid transparent;
   transition: var(--transition);
   gap: 1.3rem;
-  margin :1.3rem;
+  margin :2rem 0rem;
 }
 
 .portfolio__item:hover {
@@ -40,9 +40,9 @@
   margin-bottom: 1rem;
 }
 
-.portfolio__item-content {
+/* .portfolio__item-content { */
   /* height: 50%; */
-}
+/* } */
 
 @media screen and (max-width: 1024px) {
   .portfolio__container {
