@@ -39,15 +39,6 @@ const Portfolio = () => {
                     GitHub
                   </a>
                 )}
-
-                {/* <a
-                  href={pro.github}
-                  target="_blank"
-                  className="btn"
-                  rel="noreferrer"
-                >
-                  GitHub
-                </a> */}
                 {pro.link && (
                   <a
                     href={pro.link}

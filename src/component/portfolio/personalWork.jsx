@@ -63,10 +63,6 @@ const Portfolio = () => {
   return (
     <>
       <section id="portfolio">
-        {/* <h5>Some Personal Projects...</h5> */}
-        {/* <h2>Portfolio</h2> */}
-        {/* <h2>Some Personal Projects</h2> */}
-
         <div className="container portfolio__container">
           {soloProjects.map((pro) => (
             <article className="portfolio__item" key={pro.id}>
@@ -96,6 +92,12 @@ const Portfolio = () => {
                   Visit Website
                 </a>
               </div>
+              {/* <div className="info-btn">
+                <span className="info-text">Info</span>
+                <div className="portfolio__item-info">
+                  <p>Additional information for {pro.title} goes here...</p>
+                </div>
+              </div> */}
             </article>
           ))}
         </div>

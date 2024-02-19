@@ -102,3 +102,32 @@
 /* .tab-content {
   margin-top: 10px;
 } */
+/* .portfolio__item {
+  position: relative;
+}
+
+.info-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.info-btn:hover .portfolio__item-info {
+  display: block;
+}
+
+.portfolio__item-info {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 1;
+} */
