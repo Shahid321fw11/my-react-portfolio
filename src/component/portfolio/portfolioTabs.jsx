@@ -4,6 +4,7 @@ import "./portfolio.css";
 import ProjectsProfessional from "./professionWork";
 import ProjectsPersonal from "./personalWork";
 import ProjectsFreelancer from "./freelanceWork";
+import ProjectsMini from "./miniProjects";
 
 const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
@@ -34,11 +35,18 @@ const PortfolioTabs = () => {
           >
             Freelance
           </button>
+          <button
+            onClick={() => handleTabClick("tab4")}
+            className={activeTab === "tab4" ? "btn btn-primary" : "btn"}
+          >
+            Mini Projects
+          </button>
         </div>
         <div className="tab-content">
           {activeTab === "tab1" && <ProjectsProfessional />}
           {activeTab === "tab2" && <ProjectsPersonal />}
           {activeTab === "tab3" && <ProjectsFreelancer />}
+          {activeTab === "tab4" && <ProjectsMini />}
         </div>
       </div>
     </section>
