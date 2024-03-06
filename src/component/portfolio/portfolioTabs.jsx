@@ -35,18 +35,18 @@ const PortfolioTabs = () => {
           >
             Freelance
           </button>
-          <button
+          {/* <button
             onClick={() => handleTabClick("tab4")}
             className={activeTab === "tab4" ? "btn btn-primary" : "btn"}
           >
             Mini Projects
-          </button>
+          </button> */}
         </div>
         <div className="tab-content">
           {activeTab === "tab1" && <ProjectsProfessional />}
           {activeTab === "tab2" && <ProjectsPersonal />}
           {activeTab === "tab3" && <ProjectsFreelancer />}
-          {activeTab === "tab4" && <ProjectsMini />}
+          {/* {activeTab === "tab4" && <ProjectsMini />} */}
         </div>
       </div>
     </section>
