@@ -4,7 +4,7 @@ import "./portfolio.css";
 import ProjectsProfessional from "./professionWork";
 import ProjectsPersonal from "./personalWork";
 import ProjectsFreelancer from "./freelanceWork";
-import ProjectsMini from "./miniProjects";
+// import ProjectsMini from "./miniProjects";
 
 const PortfolioTabs = () => {
   const [activeTab, setActiveTab] = useState("tab1");
