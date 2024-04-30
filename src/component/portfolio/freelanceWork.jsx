@@ -9,7 +9,8 @@ const Portfolio = () => {
       img: backonourfeet,
       description:
         "Developed a platform to aid individuals affected by the ongoing security situation in Israel. Users can request essential items they need after being evacuated from their homes, while donors can track where their contributions are directed. Verified processes ensure assistance reaches those genuinely displaced by the conflict.",
-      technologies: "Html, CSS, JS, jQuery, Node.js, MongoDB",
+      technologies:
+        "Html, CSS, JS, jQuery, Node.js, MongoDB, Paypal Integration",
       link: "https://backonourfeet.org/",
       github: "",
     },
